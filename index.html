@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoloDream - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body class="home">
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HoloDream</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Join <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="join.html">How to Join</a>
+                            <a href="test.html">Join Us!</a>
+                        </div>
+                    </li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div> <!-- Add the overlay element -->
+        <div class="container">
+            <h2>Welcome to HoloDream</h2>
+            <p>Stay tuned for exciting updates and projects!</p>
+            <a href="characters.html" class="btn">Explore Characters</a>
+        </div>
+    </section>
+
+    <div class="background-wrapper">
+    <!-- About HoloDream Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About HoloDream</h2>
+            <p>HoloDream is your gateway to a diverse world of virtual characters. Discover unique personalities and stories brought to life through technology.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/mgvwklay" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HoloDream. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <!-- Mascot with Speech Bubble -->
+<!-- Mascot and Speech Bubble -->
+<div class="mascot-container">
+    <img src="../home/Images/mascot.png" class="mascot" alt="Mascot">
+    <div class="speech-bubble">Welcome to HoloDream!</div>
+</div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
